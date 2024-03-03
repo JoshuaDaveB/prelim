@@ -1,0 +1,162 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #242526;
+    color: aliceblue;
+}
+
+section{
+    height: 943px;
+    width: 480px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+.material-icons{
+    padding: 1rem;
+    color: aliceblue;
+}
+
+span{
+    margin-left: 10rem;
+}
+header{
+    display: flex;
+    justify-content:left;
+}
+
+.name{
+    padding: 1.2rem;
+    font-size: 17px;
+    font-style: bold;
+}
+
+.background{
+    height: 250px;
+    width: 480px;
+    position: absolute;
+    z-index: 1;
+}
+
+.profile{
+    border-radius: 200px;
+    height: 180px;
+    width: 180px;
+    position: absolute;
+    z-index: 2;
+    margin-top: 155px;
+    margin-left: 20px;
+    border: 6px solid white;
+}
+
+.bigname{
+    font-size: 27px;
+    font-style: bold;
+    color: white;
+    z-index: 3;
+    margin-top: 360px;
+    margin-left: 20px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+    padding: 1.2rem;
+}
+
+.add-friend{
+    background-color: #1B74E4;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.message{
+    background-color: #242526;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.more{
+    background-color: #242526;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+
+h4{
+    margin-top: 17px;
+}
+
+dd{
+    display: flex;
+}
+
+a{
+    color: #B0B3B8;
+    margin-top: -18px;
+    margin-left: -35px;
+}
+
+.friends{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -30px;
+    margin-left: 25px;
+    position:relative;
+}
+
+p{
+    font-style: bold;
+}
+
+.see{
+    color: #1B74E4;
+    margin-left: 300px;
+    font-style: bold;
+}
+
+.friends-count{
+    display: flex;
+    margin-top: 37px;
+    position: absolute;
+}
+
+.friends-pic{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.one{
+    height: 130px;
+    width: 135px;
+    background-color: #9ea7b1;
+    border-radius: 10px;
+}
+
+.two{
+    height: 130px;
+    width: 135px;
+    background-color: #9ea7b1;
+    border-radius: 10px;
+}
+
+.three{
+    height: 130px;
+    width: 135px;
+    background-color: #9ea7b1;
+    border-radius: 10px;
+}
